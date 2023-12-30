@@ -167,7 +167,7 @@ section .header {
 
 .features .card {
   background-color: #27272a;
-  padding: 1rem;
+  padding: 4rem;
   border: 2px solid transparent;
   border-radius: 15px;
   transition: all 0.3s ease;
@@ -180,10 +180,9 @@ section .header {
 
 .features .card span {
   display: inline-block;
-  background-color: #7e1dd8;
-  padding: 2px 9px;
+  padding: 2px 160px;
   margin-bottom: 1rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #fff;
   border-radius: 5px;
 }
@@ -191,13 +190,18 @@ section .header {
 .features .card h4 {
   margin-bottom: 0.5rem;
   color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.features .card i {
+  color: #8300a1;
+  font-size: 8rem;
 }
 
 .features .card p {
   color: #ccc;
-  margin-bottom: 1rem;
+  font-size: 20px;
 }
 
 .features .card a {
@@ -269,7 +273,7 @@ section .header {
 
 .pricing .card p i {
   color: #ccc;
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-right: 0.3rem;
 }
 
@@ -379,6 +383,14 @@ footer {
 }
 
 @media (width < 900px) {
+  .features .card i {
+    color: #8300a1;
+    font-size: 40px;
+  }
+
+  .features .card {
+    padding: 10px;
+  }
   .nav-logo {
     height: 80px;
     width: 80px;
