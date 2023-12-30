@@ -196,7 +196,7 @@ section .header {
 
 .features .card i {
   color: #8300a1;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 .features .card p {
