@@ -332,16 +332,18 @@ footer .column h4 {
   font-size: 1.2rem;
   font-weight: 500;
 }
-
+/*test-front*/
 footer .column > a {
   display: block;
   color: #ccc;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
 }
 
 footer .column > a:hover {
   color: #7e1dd8;
+  font-size: 1.2rem;
 }
 
 .left-image {
@@ -370,6 +372,16 @@ footer {
   border-top: 1px solid #545454;
 }
 
+@media (width > 900px) {
+  footer .column h4 {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  footer .column > a:hover {
+    font-size: 1.6rem;
+  }
+}
+
 @media (width < 1200px) {
   .left-image {
     right: 100px;
@@ -389,8 +401,18 @@ footer {
   }
 
   .features .card {
-    padding: 10px;
+    padding: 3px;
   }
+
+  .features .card h4 {
+    font-size: 24px;
+  }
+
+  .features .card span {
+    display: inline-block;
+    padding: 2px 140px;
+  }
+
   .nav-logo {
     height: 80px;
     width: 80px;
