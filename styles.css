@@ -347,12 +347,12 @@ footer .column > a:hover {
 }
 
 .left-image {
-  top: 180px;
+  top: 200px;
   width: 320px;
-  height: 400px;
   position: absolute;
-  right: 540px;
+  right: 480px;
   cursor: pointer;
+  float: left;
 }
 
 .footer {
@@ -382,19 +382,11 @@ footer {
   }
 }
 
-@media (width < 1200px) {
-  .left-image {
-    right: 100px;
-  }
-}
-
-@media (width < 1308px) {
+@media (width < 900px) {
   .left-image {
     display: none;
   }
-}
 
-@media (width < 900px) {
   .features .card i {
     color: #8300a1;
     font-size: 40px;
@@ -410,7 +402,7 @@ footer {
 
   .features .card span {
     display: inline-block;
-    padding: 2px 140px;
+    padding: 2px 100px;
   }
 
   .nav-logo {
