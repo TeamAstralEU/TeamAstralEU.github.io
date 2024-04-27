@@ -225,9 +225,9 @@ section .header {
   display: grid;
   grid-template-columns: repeat(1, 2fr);
   gap: 2rem;
-  justify-content: flex-end; /* Den Inhalt nach rechts verschieben */
+  justify-content: flex-end;
   align-items: center;
-  margin-left: 20px; /* Beispiel: Verwende den gewünschten Abstand */
+  margin-left: 20px;
 }
 
 .pricing .card {
@@ -357,7 +357,7 @@ footer .column > a:hover {
   right: calc(2vw * 0.26);
 }
 
-@media (max-width: 900px) {
+@media (width < 900px) {
   .left-vid {
     width: 100%;
     height: 300px;
@@ -395,7 +395,6 @@ footer {
 }
 
 @media (width < 900px) {
-
   .features .card i {
     position: relative;
     font-size: 40px;
